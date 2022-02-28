@@ -3,11 +3,11 @@
 
     <div class="desc">
         <div class="logo_index">
-            <img src="assets/img/logo.jpg" class="logo">
+            <img src="assets/img/logo2.jpg" class="logo">
         </div>
 
         <div class="text_index">
-            <h3>Le Metropolis</h3>
+            <h3>Bienvenu !</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, magni debitis? Dolorum nihil distinctio porro ducimus totam tempore officiis voluptas, consequuntur et in? Quasi, totam! Delectus mollitia eligendi esse quos.</p>
         </div>
     </div>
