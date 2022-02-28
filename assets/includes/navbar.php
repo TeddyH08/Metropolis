@@ -2,7 +2,7 @@
     <nav>
         <div class="tout">
             <div class="titre">
-                <img src="assets/img/logo.jpg" class="logo">
+                <img src="assets/img/logo2.jpg" class="logo">
             </div>
             <ul id="navbar">
                 <div><li><a href="#exp">Accueil</a></li></div>
