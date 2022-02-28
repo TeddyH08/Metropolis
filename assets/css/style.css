@@ -232,7 +232,7 @@ h1 {
   }
 
 .parallax.parallax-image {
-    background-image: url("../img/salle.jpg");
+    background-image: url("../img/para.png");
     height: 300px;
   }
 
@@ -273,37 +273,39 @@ h1 {
 
 /* -------------------------------------------------- CONNEXION -------------------------------------------------- */
 
-.top {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-}
-
 .user_return {
+    position: absolute;
     background-color: blue;
     color: white;
     padding: 10px 20px;
     margin: 40px 70px;
     font-size: 120%;
     border-radius: 5px;
+    left: 0;
+    top: 0;
 }
 
 .user_incription {
+    position: absolute;
     background-color: blue;
     color: white;
     padding: 10px 20px;
     margin: 40px 70px;
     font-size: 120%;
     border-radius: 5px;
+    right: 0;
+    top: 0;
 }
 
 .connexion {
+    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 100%;
+    margin-top: -600px;
+    margin-bottom: 300px;
 }
 
 .container_co {
@@ -312,8 +314,9 @@ h1 {
     justify-content: center;
     align-items: center;
     width: 40%;
-    border: 5px blue solid;
     border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(4px);
 }
 
 .container_co h3 {
@@ -332,4 +335,44 @@ form {
 
 .envoi input{
     cursor: pointer;
+}
+
+/* -------------------------------------------------- INSCRIPTION -------------------------------------------------- */
+
+.user_connexion {
+    position: absolute;
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    margin: 40px 70px;
+    font-size: 120%;
+    border-radius: 5px;
+    right: 0;
+    top: 0;
+}
+
+.inscription {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: -600px;
+    margin-bottom: 100px;
+}
+
+.container_ins {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(4px);
+}
+
+.container_ins h3 {
+    font-size: 300%;
 }
