@@ -11,14 +11,7 @@
 </head>
 
 <body>
-    <form action="" method="post">
-        <label for="">Nom d'utilisateur</label>
-        <input type="text">
-
-        <label for="">Mot de passe</label>
-        <input type="text">
-
-        <input type="text" value="Connexion">
-    </form>
+    <?php include("assets/includes/connexion/topco.php") ?>
+    <?php include("assets/includes/connexion/formulaire.php") ?>
 </body>
 </html>

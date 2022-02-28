@@ -12,6 +12,7 @@
 
 body {
     background-color: black;
+    color: white;
 }
 
 a {
@@ -86,6 +87,17 @@ footer {
         background-color: white;
         border-radius: 50%;
     }
+
+label {
+    margin: 5px 10px;
+    font-size: 120%;
+}
+
+input {
+    margin: 5px 10px;
+    font-size: 120%;
+    width: 90%;
+}
 
 /* -------------------------------------------------- INDEX -------------------------------------------------- */
 
@@ -261,3 +273,63 @@ h1 {
 
 /* -------------------------------------------------- CONNEXION -------------------------------------------------- */
 
+.top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.user_return {
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    margin: 40px 70px;
+    font-size: 120%;
+    border-radius: 5px;
+}
+
+.user_incription {
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    margin: 40px 70px;
+    font-size: 120%;
+    border-radius: 5px;
+}
+
+.connexion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.container_co {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    border: 5px blue solid;
+    border-radius: 20px;
+}
+
+.container_co h3 {
+    font-size: 300%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    margin: 10px;
+    padding: 10px;
+}
+
+.envoi input{
+    cursor: pointer;
+}
