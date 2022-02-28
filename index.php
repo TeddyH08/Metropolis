@@ -12,5 +12,6 @@
 
 <body>
     <?php include("assets/includes/backgroundindex.php") ?>
+    <?php include("assets/includes/descriptionindex.php") ?>
 </body>
 </html>
