@@ -21,37 +21,7 @@ a {
 
 /* Image top */
 
-.bg_index {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: flex-start;
-    /* background-image: url("../img/fondmetro.jpg");
-    background-size: cover;
-    height: 100vh; */
-}
+/* --------------------------------- ACCUEIL --------------------------------- */
 
-.bg_img {
-    position: absolute;
-    width: 100%;
-}
+/* Navbar */
 
-.user_co {
-    position: relative;
-    background-color: blue;
-    color: white;
-    padding: 5px 15px;
-    margin: 50px;
-    font-size: 120%;
-    border-radius: 5px;
-}
-
-.user_ins {
-    position: relative;
-    background-color: blue;
-    color: white;
-    padding: 5px 15px;
-    margin: 50px;
-    font-size: 120%;
-    border-radius: 5px;
-}
