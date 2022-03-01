@@ -4,6 +4,32 @@ $(document).ready(function(){
         slidesToShow: 4,
         slidesToScroll: 2,
         prevArrow: '<span class="priv_arrow"><i class="fa-solid fa-angle-left"></i></span>',
-        nextArrow: '<span class="next_arrow"><i class="fa-solid fa-angle-right"></i></span>'
+        nextArrow: '<span class="next_arrow"><i class="fa-solid fa-angle-right"></i></span>',
+        responsive: [
+          {
+            breakpoint: 1025,
+            settings: {
+              slidesToShow: 3,
+              slidesToScroll: 2,
+              infinite: true
+            }
+          },
+          {
+            breakpoint: 601,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 2,
+              infinite: true
+            }
+          },
+          {
+            breakpoint: 481,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1,
+              infinite: true
+            }
+          }
+        ]
     });
 });

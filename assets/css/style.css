@@ -87,10 +87,12 @@ footer {
         margin: 5px;
     }
 
-    .backtotop a:hover {
-        color: white;
-        background-color: #296EB4;
-        border-radius: 50%;
+    @media screen and (min-width: 1025px) {
+        .backtotop a:hover {
+            color: white;
+            background-color: #296EB4;
+            border-radius: 50%;
+        }
     }
 
 label {
@@ -557,17 +559,11 @@ li i {
 
 .slider .priv_arrow {
     color: white;
-    margin-right: 20px;
+    margin-right: 55px;
     padding: 10px 20px;
     font-size: 120%;
     transition: all 1s ease;
     border-radius: 50%;
-}
-
-.slider .priv_arrow:hover {
-    color: white;
-    background-color: #296EB4;
-    cursor: pointer;
 }
 
 .slider .next_arrow {
@@ -579,10 +575,17 @@ li i {
     border-radius: 50%;
 }
 
-.slider .next_arrow:hover {
-    color: white;
-    background-color: #296EB4;
-    cursor: pointer;
+@media screen and (min-width: 1025px) {
+    .slider .priv_arrow:hover {
+        color: white;
+        background-color: #296EB4;
+        cursor: pointer;
+    }
+    .slider .next_arrow:hover {
+        color: white;
+        background-color: #296EB4;
+        cursor: pointer;
+    }
 }
 
 /* -------------------------------------------------- RESPONSIVE -------------------------------------------------- */

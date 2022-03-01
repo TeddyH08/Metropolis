@@ -4,35 +4,35 @@
    <h3>Action :</h3>
    <div class="multiple-items slider">
       <div class="slider_items">
-         <img src="assets/img/affiche/ff9.jpg" width=60%> 
+         <img src="assets/img/affiche/ff9l.jpg" width=90%> 
       </div>
 
       <div class="slider_items">
-         <img src="assets/img/affiche/expen.jpg" width=60%> 
+         <img src="assets/img/affiche/expenl.jpg" width=90%> 
       </div>
 
       <div class="slider_items">
-         <img src="assets/img/affiche/bd3.jpg" width=60%> 
+         <img src="assets/img/affiche/bd3l.jpg" width=90%> 
       </div>
 
       <div class="slider_items">
-         <img src="assets/img/affiche/bw.jpg" width=60%> 
+         <img src="assets/img/affiche/bwl.jpg" width=90%> 
       </div>
 
       <div class="slider_items">
-         <img src="assets/img/affiche/mms.jpg" width=60%> 
+         <img src="assets/img/affiche/mmsl.jpg" width=90%> 
       </div>
 
       <div class="slider_items">
-         <img src="assets/img/affiche/e2.jpg" width=60%> 
+         <img src="assets/img/affiche/e2l.jpg" width=90%> 
       </div>
 
       <div class="slider_items">
-         <img src="assets/img/affiche/calam.jpg" width=60%> 
+         <img src="assets/img/affiche/calaml.jpg" width=90%> 
       </div>
 
       <div class="slider_items">
-         <img src="assets/img/affiche/fury.jpg" width=60%> 
+         <img src="assets/img/affiche/furyl.jpg" width=90%> 
       </div>
    </div>
 </div>
