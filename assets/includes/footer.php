@@ -1,6 +1,6 @@
 <footer>
     <div class="reseaux">
-        <a href="" target="_blank"><i class="fa-brands fa-facebook-square"></i></a>
+        <a href="https://www.facebook.com/CinemaMetropolisOfficiel/" target="_blank"><i class="fa-brands fa-facebook-square"></i></a>
         <a href="" target="_blank"><i class="fa-brands fa-twitter-square"></i></a>
         <a href="" target="_blank"><i class="fa-brands fa-instagram"></i></a>
     </div>

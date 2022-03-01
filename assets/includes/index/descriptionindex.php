@@ -3,7 +3,7 @@
 
     <div class="desc">
         <div class="logo_index">
-            <img src="assets/img/logo2.jpg" class="logo">
+            <img src="assets/img/logo2.jpg" class="logo_ind">
         </div>
 
         <div class="text_index">

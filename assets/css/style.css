@@ -83,8 +83,8 @@ footer {
     }
 
     .backtotop a:hover {
-        color: black;
-        background-color: white;
+        color: white;
+        background-color: #296EB4;
         border-radius: 50%;
     }
 
@@ -118,9 +118,9 @@ input {
 
 .user_co {
     position: absolute;
-    background-color: blue;
+    background-color: #296EB4;
     color: white;
-    padding: 10px 20px;
+    padding: 5px 25px;
     margin: 40px 70px;
     font-size: 120%;
     border-radius: 5px;
@@ -130,9 +130,9 @@ input {
 
 .user_ins {
     position: absolute;
-    background-color: blue;
-    color: wheat;
-    padding: 10px 20px;
+    background-color: #296EB4;
+    color: white;
+    padding: 5px 25px;
     margin: 40px 70px;
     font-size: 120%;
     border-radius: 5px;
@@ -142,7 +142,7 @@ input {
 
 h1 {
     position: relative;
-    color: #b2a800;
+    color: #E6AF2E;
     font-size: 1200%;
     margin-top: -400px;
 }
@@ -178,7 +178,7 @@ h1 {
     width: 50%;
 }
 
-.logo {
+.logo_ind {
     width: 60%;
     border-radius: 50%;
 }
@@ -275,9 +275,9 @@ h1 {
 
 .user_return {
     position: absolute;
-    background-color: blue;
+    background-color: #296EB4;
     color: white;
-    padding: 10px 20px;
+    padding: 5px 25px;
     margin: 40px 70px;
     font-size: 120%;
     border-radius: 5px;
@@ -287,9 +287,9 @@ h1 {
 
 .user_incription {
     position: absolute;
-    background-color: blue;
+    background-color: #296EB4;
     color: white;
-    padding: 10px 20px;
+    padding: 5px 25px;
     margin: 40px 70px;
     font-size: 120%;
     border-radius: 5px;
@@ -341,9 +341,9 @@ form {
 
 .user_connexion {
     position: absolute;
-    background-color: blue;
+    background-color: #296EB4;
     color: white;
-    padding: 10px 20px;
+    padding: 5px 25px;
     margin: 40px 70px;
     font-size: 120%;
     border-radius: 5px;
@@ -415,6 +415,7 @@ nav {
     width: 8%;
     margin-top: 5px;
     margin-bottom: 5px;
+    border-radius: 50%;
 }
 
 ul {
@@ -447,11 +448,16 @@ li a {
     transition: 1000ms ease;
     margin-left: 10px;
     font-size: 90%;
+    align-items: center;
+}
+
+li i {
+    margin-right: 2px;
 }
 
 @media screen and (min-width: 1025px) {
     li a:hover {
-        background-color: blue;
+        background-color: #296EB4;
         border-radius: 30px;
     }
 }
