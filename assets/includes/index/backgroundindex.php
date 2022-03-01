@@ -9,5 +9,5 @@
         Inscription
     </a>
 
-    <h1 class="animate__animated animate__backInDown">Metropolis</h1>
+    <h1 class="animate__animated animate__zoomIn">Metropolis</h1>
 </div>

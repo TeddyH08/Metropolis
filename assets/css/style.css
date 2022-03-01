@@ -3,6 +3,11 @@
     src: url("../fonts/Oswald-Regular.ttf");
 }
 
+@font-face {
+    font-family: 'Russo';
+    src: url("../fonts/RussoOne-Regular.ttf");
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -144,7 +149,8 @@ h1 {
     position: relative;
     color: #E6AF2E;
     font-size: 1200%;
-    margin-top: -400px;
+    margin-top: -350px;
+    font-family: 'Russo';
 }
 
 /* Description */
@@ -163,6 +169,7 @@ h1 {
 .desc_index h2 {
     font-size: 600%;
     margin-bottom: 100px;
+    font-family: 'Russo';
 }
 
 .desc {
@@ -193,6 +200,8 @@ h1 {
 
 .text_index h3 {
     font-size: 350%;
+    font-family: 'Russo';
+    margin-right: 30px;
 }
 
 .text_index p {
@@ -257,6 +266,7 @@ h1 {
 
 .text_hist h3 {
     font-size: 350%;
+    font-family: 'Russo';
 }
 
 .text_hist p {
