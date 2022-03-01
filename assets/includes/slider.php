@@ -16,23 +16,23 @@
       </div>
 
       <div class="slider_items">
-         <img src="assets/img/affiche/titanic_affiche.jpg" width=60%> 
+         <img src="assets/img/affiche/bw.jpg" width=60%> 
       </div>
 
       <div class="slider_items">
-         <img src="assets/img/affiche/titanic_affiche.jpg" width=60%> 
+         <img src="assets/img/affiche/mms.jpg" width=60%> 
       </div>
 
       <div class="slider_items">
-         <img src="assets/img/affiche/titanic_affiche.jpg" width=60%> 
+         <img src="assets/img/affiche/e2.jpg" width=60%> 
       </div>
 
       <div class="slider_items">
-         <img src="assets/img/affiche/titanic_affiche.jpg" width=60%> 
+         <img src="assets/img/affiche/calam.jpg" width=60%> 
       </div>
 
       <div class="slider_items">
-         <img src="assets/img/affiche/titanic_affiche.jpg" width=60%> 
+         <img src="assets/img/affiche/fury.jpg" width=60%> 
       </div>
    </div>
 </div>
@@ -72,6 +72,45 @@
 
       <div class="slider_items">
          <img src="assets/img/affiche/transfor.jpg" width=60%> 
+      </div>
+   </div>
+</div>
+
+<!-- Comédie -->
+
+<div class="slide">
+   <h3>Comédie :</h3>
+   <div class="multiple-items slider">
+      <div class="slider_items">
+         <img src="assets/img/affiche/vbt.jpg" width=60%> 
+      </div>
+
+      <div class="slider_items">
+         <img src="assets/img/affiche/camp.jpg" width=60%> 
+      </div>
+
+      <div class="slider_items">
+         <img src="assets/img/affiche/shrek.jpg" width=60%> 
+      </div>
+
+      <div class="slider_items">
+         <img src="assets/img/affiche/bs.jpg" width=60%> 
+      </div>
+
+      <div class="slider_items">
+         <img src="assets/img/affiche/sm.jpg" width=60%> 
+      </div>
+
+      <div class="slider_items">
+         <img src="assets/img/affiche/ap4.jpg" width=60%> 
+      </div>
+
+      <div class="slider_items">
+         <img src="assets/img/affiche/je2.jpg" width=60%> 
+      </div>
+
+      <div class="slider_items">
+         <img src="assets/img/affiche/mask.jpg" width=60%> 
       </div>
    </div>
 </div>
