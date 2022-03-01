@@ -5,9 +5,9 @@
         Connexion
     </a>
 
-    <a href="inscription.php" class="user_ins">
+    <a href="inscription.php" class="user_inscri">
         Inscription
     </a>
-
+    
     <h1 class="animate__animated animate__zoomIn">Metropolis</h1>
 </div>

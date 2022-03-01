@@ -13,7 +13,7 @@
         <div class="container_co">
             <h3>Connexion :</h3>
 
-            <form action="" method="post">
+            <form action="" method="post" class="animate__animated animate__fadeIn">
                 <label for="">Nom d'utilisateur :</label>
                 <input type="text" required>
 

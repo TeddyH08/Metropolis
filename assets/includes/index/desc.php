@@ -5,6 +5,6 @@
     </div>
 
     <div class="img_hist">
-        <img src="assets/img/devant.jpg">
+        <img src="assets/img/siege.jpg">
     </div>
 </div>

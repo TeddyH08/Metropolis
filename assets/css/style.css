@@ -133,7 +133,7 @@ input {
     left: 0;
 }
 
-.user_ins {
+.user_inscri {
     position: absolute;
     background-color: #296EB4;
     color: white;
@@ -204,8 +204,24 @@ h1 {
     margin-right: 30px;
 }
 
-.text_index p {
+.text {
     font-size: 150%;
+    margin: 10px 40px 5px 40px;
+    text-align: center;
+}
+
+.prix {
+    font-size: 200%;
+}
+
+.user_plus {
+    background-color: #296EB4;
+    color: white;
+    padding: 5px 25px;
+    font-size: 120%;
+    border-radius: 5px;
+    top: 0;
+    right: 0;
 }
 
 /* Parallax */
@@ -267,6 +283,7 @@ h1 {
 .text_hist h3 {
     font-size: 350%;
     font-family: 'Russo';
+    margin: 0 50px;
 }
 
 .text_hist p {
@@ -279,6 +296,48 @@ h1 {
 
 .img_hist img {
     width: 100%;
+}
+
+/* Accessibilité */
+
+.accessibilite {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.accessibilite h3 {
+    font-size: 350%;
+    font-family: 'Russo';
+}
+
+.acces {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.ecran {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 25%;
+    margin-top: 50px;
+}
+
+.ecran i {
+    font-size: 600%;
+}
+
+.ecran p {
+    font-size: 150%;
 }
 
 /* -------------------------------------------------- CONNEXION -------------------------------------------------- */
@@ -389,6 +448,8 @@ form {
 
 /* -------------------------------------------------- ACCUEIL -------------------------------------------------- */
 
+/* Navbar */
+
 header {
     position: sticky;
     top: 0;
@@ -470,6 +531,58 @@ li i {
         background-color: #296EB4;
         border-radius: 30px;
     }
+}
+
+/* Slider */
+
+.slide {
+    margin-top: 50px;
+}
+
+.slide h3 {
+    margin: 10px 50px;
+    font-size: 150%;
+}
+
+.slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 20px;
+}
+
+.slider_items {
+    width: 50%;
+}
+
+.slider .priv_arrow {
+    color: white;
+    margin-right: 20px;
+    padding: 10px 20px;
+    font-size: 120%;
+    transition: all 1s ease;
+    border-radius: 50%;
+}
+
+.slider .priv_arrow:hover {
+    color: white;
+    background-color: #296EB4;
+    cursor: pointer;
+}
+
+.slider .next_arrow {
+    color: white;
+    margin-left: 20px;
+    padding: 10px 20px;
+    font-size: 120%;
+    transition: all 1s ease;
+    border-radius: 50%;
+}
+
+.slider .next_arrow:hover {
+    color: white;
+    background-color: #296EB4;
+    cursor: pointer;
 }
 
 /* -------------------------------------------------- RESPONSIVE -------------------------------------------------- */

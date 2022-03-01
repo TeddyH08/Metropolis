@@ -17,12 +17,13 @@
         integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" 4
         crossorigin="anonymous" 
         referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="assets/css/slick.css">
 </head>
 
 <body>
     <?php include("assets/includes/navbar.php") ?>
-    <?php include("assets/includes/carouselpr.php") ?>
-    <?php include("assets/includes/carouselsc.php") ?>
+    <?php include("assets/includes/slider.php") ?>
     <?php include("assets/includes/footer.php") ?>
 </body>
 </html>

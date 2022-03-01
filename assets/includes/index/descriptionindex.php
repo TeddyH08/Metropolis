@@ -7,8 +7,13 @@
         </div>
 
         <div class="text_index">
-            <h3>Bienvenu !</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, magni debitis? Dolorum nihil distinctio porro ducimus totam tempore officiis voluptas, consequuntur et in? Quasi, totam! Delectus mollitia eligendi esse quos.</p>
+            <h3>Bienvenue !</h3>
+            <p class="text">Retrouvez tout le plaisir d'un film au cinéma mais à la maison !</p>
+            <p class="text">Invitez votre famille ainsi que vos amis à regarder vos films en simultané et en 4K !</p>
+            <p class="prix">7,99€ par mois</p>
+            <a href="" class="user_plus">
+                En savoir plus...
+            </a>
         </div>
     </div>
 </div>
