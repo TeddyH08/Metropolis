@@ -400,7 +400,7 @@ h1 {
     justify-content: center;
     align-items: center;
     width: 100%;
-    margin-top: -600px;
+    margin-top: -35%;
     margin-bottom: 300px;
 }
 
@@ -460,7 +460,7 @@ form {
     justify-content: center;
     align-items: center;
     width: 100%;
-    margin-top: -600px;
+    margin-top: -35%;
     margin-bottom: 100px;
 }
 
@@ -488,7 +488,7 @@ form {
     justify-content: center;
     align-items: center;
     width: 100%;
-    margin-top: -600px;
+    margin-top: -35%;
     margin-bottom: 200px;
 }
 .container_abo {
@@ -826,6 +826,65 @@ li i {
     .backtotop {
         justify-content: center;
     }
+
+    /* -------------------------------------------------- CONNEXION / INSCRIPTION / ABONNEMENT -------------------------------------------------- */
+    .user_connexion {
+        font-size: 100%;
+        margin: 20px 30px;
+    }
+    .user_incription {
+        font-size: 100%;
+        margin: 20px 30px;
+    }
+    .user_return {
+        font-size: 100%;
+        margin: 20px 30px;
+    }
+
+    .container_co {
+        width: 60%;
+    }
+
+    .container_ins {
+        width: 60%;
+    }
+
+    .container_abo {
+        width: 60%;
+    }
+
+    .container_co h3 {
+        font-size: 200%;
+    }
+
+    .container_ins h3 {
+        font-size: 200%;
+    }
+
+    .container_abo h3 {
+        font-size: 200%;
+    }
+
+    label {
+        font-size: 100%;
+    }
+
+    input {
+        font-size: 100%;
+    }
+
+    .abonnement {
+        margin-bottom: 100px;
+    }
+
+    .connexion {
+        margin-bottom: 100px;
+    }
+
+    .inscription {
+        margin-bottom: 100px;
+    }
+
     /* -------------------------------------------------- ACCUEIL -------------------------------------------------- */
     .menu {
         display: flex;
@@ -944,6 +1003,31 @@ li i {
     }
     .ecran p {
         font-size: 100%;
+    }
+    /* -------------------------------------------------- CONNEXION / INSCRIPTION / ABONNEMENT -------------------------------------------------- */
+    .user_connexion {
+        font-size: 80%;
+        margin: 10px 15px;
+    }
+    .user_incription {
+        font-size: 80%;
+        margin: 10px 15px;
+    }
+    .user_return {
+        font-size: 80%;
+        margin: 10px 15px;
+    }
+
+    .abonnement {
+        margin-bottom: 50px;
+    }
+
+    .connexion {
+        margin-bottom: 50px;
+    }
+
+    .inscription {
+        margin-bottom: 50px;
     }
 }
 

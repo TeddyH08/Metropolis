@@ -9,7 +9,7 @@
         Inscription
     </a>
 
-    <div class="abonnement">
+    <div class="connexion">
         <div class="container_co">
             <h3>Connexion :</h3>
 
