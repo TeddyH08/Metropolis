@@ -13,6 +13,8 @@
         <div class="container_ins">
             <h3>Inscription :</h3>
 
+            <div class="separator"></div>
+
             <form action="" method="post" class="animate__animated animate__fadeIn">
                 <label for="">Nom :</label>
                 <input type="text" required>

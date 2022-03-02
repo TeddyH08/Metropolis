@@ -10,8 +10,8 @@
             <h3>Bienvenue !</h3>
             <p class="text">Retrouvez tout le plaisir d'un film au cinéma mais à la maison !</p>
             <p class="text">Invitez votre famille ainsi que vos amis à regarder vos films en simultané et en 4K !</p>
-            <p class="prix">7,99€ par mois</p>
-            <a href="" class="user_plus">
+            <p class="prix">Standard : 7,99€ par mois</p>
+            <a href="abonnement.php" class="user_plus">
                 En savoir plus...
             </a>
         </div>

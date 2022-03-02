@@ -9,9 +9,11 @@
         Inscription
     </a>
 
-    <div class="connexion">
+    <div class="abonnement">
         <div class="container_co">
             <h3>Connexion :</h3>
+
+            <div class="separator"></div>
 
             <form action="" method="post" class="animate__animated animate__fadeIn">
                 <label for="">Nom d'utilisateur :</label>

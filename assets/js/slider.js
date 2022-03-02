@@ -11,7 +11,9 @@ $(document).ready(function(){
             settings: {
               slidesToShow: 3,
               slidesToScroll: 2,
-              infinite: true
+              infinite: true,
+              prevArrow: false,
+              nextArrow: false
             }
           },
           {
@@ -19,7 +21,9 @@ $(document).ready(function(){
             settings: {
               slidesToShow: 2,
               slidesToScroll: 2,
-              infinite: true
+              infinite: true,
+              prevArrow: false,
+              nextArrow: false
             }
           },
           {
@@ -27,7 +31,9 @@ $(document).ready(function(){
             settings: {
               slidesToShow: 1,
               slidesToScroll: 1,
-              infinite: true
+              infinite: true,
+              prevArrow: false,
+              nextArrow: false
             }
           }
         ]
