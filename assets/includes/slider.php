@@ -43,35 +43,35 @@
    <h3>Science Fiction :</h3>
    <div class="multiple-items slider">
       <div class="slider_items">
-         <img src="assets/img/affiche/spnwh.jpg" width=60%> 
+         <img src="assets/img/affiche/spnwhl.jpg" width=90%> 
       </div>
 
       <div class="slider_items">
-         <img src="assets/img/affiche/sw9.jpg" width=60%> 
+         <img src="assets/img/affiche/sw9l.jpg" width=90%> 
       </div>
 
       <div class="slider_items">
-         <img src="assets/img/affiche/hp72.jpg" width=60%> 
+         <img src="assets/img/affiche/hp72l.jpg" width=90%> 
       </div>
 
       <div class="slider_items">
-         <img src="assets/img/affiche/rpo.jpg" width=60%> 
+         <img src="assets/img/affiche/rpol.jpg" width=90%> 
       </div>
 
       <div class="slider_items">
-         <img src="assets/img/affiche/kny.jpg" width=60%> 
+         <img src="assets/img/affiche/knyl.jpg" width=90%> 
       </div>
 
       <div class="slider_items">
-         <img src="assets/img/affiche/mib3.jpg" width=60%> 
+         <img src="assets/img/affiche/mib3l.jpg" width=90%> 
       </div>
 
       <div class="slider_items">
-         <img src="assets/img/affiche/alita.jpg" width=60%> 
+         <img src="assets/img/affiche/alital.jpg" width=90%> 
       </div>
 
       <div class="slider_items">
-         <img src="assets/img/affiche/transfor.jpg" width=60%> 
+         <img src="assets/img/affiche/transforl.jpg" width=90%> 
       </div>
    </div>
 </div>
@@ -82,35 +82,35 @@
    <h3>Comédie :</h3>
    <div class="multiple-items slider">
       <div class="slider_items">
-         <img src="assets/img/affiche/vbt.jpg" width=60%> 
+         <img src="assets/img/affiche/vbtl.jpg" width=90%> 
       </div>
 
       <div class="slider_items">
-         <img src="assets/img/affiche/camp.jpg" width=60%> 
+         <img src="assets/img/affiche/campl.jpg" width=90%> 
       </div>
 
       <div class="slider_items">
-         <img src="assets/img/affiche/shrek.jpg" width=60%> 
+         <img src="assets/img/affiche/shrekl.jpg" width=90%> 
       </div>
 
       <div class="slider_items">
-         <img src="assets/img/affiche/bs.jpg" width=60%> 
+         <img src="assets/img/affiche/bsl.jpg" width=90%> 
       </div>
 
       <div class="slider_items">
-         <img src="assets/img/affiche/sm.jpg" width=60%> 
+         <img src="assets/img/affiche/sml.jpg" width=90%> 
       </div>
 
       <div class="slider_items">
-         <img src="assets/img/affiche/ap4.jpg" width=60%> 
+         <img src="assets/img/affiche/ap4l.jpg" width=90%> 
       </div>
 
       <div class="slider_items">
-         <img src="assets/img/affiche/je2.jpg" width=60%> 
+         <img src="assets/img/affiche/je2l.jpg" width=90%> 
       </div>
 
       <div class="slider_items">
-         <img src="assets/img/affiche/mask.jpg" width=60%> 
+         <img src="assets/img/affiche/maskl.jpg" width=90%> 
       </div>
    </div>
 </div>

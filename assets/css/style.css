@@ -588,6 +588,10 @@ li i {
     }
 }
 
+.slider_items img {
+    border-radius: 5px;
+}
+
 /* -------------------------------------------------- RESPONSIVE -------------------------------------------------- */
 
 @media screen and (max-width: 1024px) {
