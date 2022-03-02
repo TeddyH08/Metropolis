@@ -23,7 +23,7 @@
 
 <body>
     <?php include("assets/includes/navbar.php") ?>
-    <?php include("assets/includes/slider.php") ?>
+    <?php include("assets/includes/accueil/slider.php") ?>
     <?php include("assets/includes/footer.php") ?>
 </body>
 </html>
