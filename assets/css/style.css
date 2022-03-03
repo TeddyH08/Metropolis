@@ -606,9 +606,7 @@ nav {
     width: 50%;
 }
 
-#navbar {
-    margin: 10px;
-}
+
 
 .logo {
     width: 8%;
@@ -637,7 +635,7 @@ nav {
     font-size: 150%;
 }
 
-li a {
+.naav a {
     display: block;
     color: white;
     text-align: center;
@@ -650,12 +648,12 @@ li a {
     align-items: center;
 }
 
-li i {
+.naav i {
     margin-right: 2px;
 }
 
 @media screen and (min-width: 1025px) {
-    li a:hover {
+    .naav a:hover {
         background-color: #296EB4;
         border-radius: 30px;
     }
@@ -760,7 +758,154 @@ li i {
     }
 }
 
+/* -------------------------------------------------- ACCUEIL -------------------------------------------------- */
+
+/* Fond image */
+
+.fond {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:flex-start;
+    width: 100%;
+}
+
+.fond_img {
+    width: 100%;
+    position: relative;
+    filter: brightness(20%);
+}
+
+.sinopsis {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 50%;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    padding-top: 20vh;
+}
+
+.sinopsis p{
+    font-size: 150%;
+    margin: 5px;
+}
+
+.trailer {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 0;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    padding-top: 20vh;
+}
+
+.fond h3 {
+    font-size: 400%;
+    margin-bottom: 20px;
+}
+
+/* Film */
+
+.film {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 100px;
+}
+
+.video {
+    width: 65%;
+    height: 35rem;
+    background-color: gray;
+}
+
+/* Description */
+
+.description {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    width: 100%;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.description h3{
+    font-size: 250%;
+}
+
+.description p{
+    font-size: 120%;
+    margin: 5px;
+}
+
+.avis {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+}
+
+.note {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.infos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    text-align: center;
+}
+
+.acteurs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+}
+
+.act {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+}
+
 /* -------------------------------------------------- RESPONSIVE -------------------------------------------------- */
+
+@media screen and (max-width: 1200px) {
+    .trailer {
+        padding-top: 10vh;
+    }
+    .sinopsis {
+        padding-top: 10vh;
+    }
+    .trailer iframe {
+        width: 500px;
+    }
+    .video {
+        width: 75%;
+        height: 30rem;
+    }
+    .description p{
+        font-size: 100%;
+    }
+}
 
 @media screen and (max-width: 1100px) {
     /* -------------------------------------------------- INDEX -------------------------------------------------- */
@@ -947,9 +1092,71 @@ li i {
         background-color: rgba(0, 0, 0, 0.9);
         backdrop-filter: blur(4px);
         width: 100%;
-        height: 250px;
+        height: 150px;
         margin: 0;
         padding: 0;
+    }
+
+    /* -------------------------------------------------- FILM -------------------------------------------------- */
+    
+    .trailer {
+        display: none;
+    }
+
+    .sinopsis {
+        width: 80%;
+        left: 10%;
+    }
+
+    .sinopsis h3{
+        font-size: 300%;
+    }
+
+    .sinopsis p{
+        font-size: 120%;
+    }
+
+    .description {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .avis {
+        width: 85%;
+    }
+
+    .infos {
+        width: 85%;
+    }
+
+    .acteurs {
+        width: 85%;
+    }
+
+    .trailer {
+        padding-top: 10vh;
+    }
+    .sinopsis {
+        padding-top: 10vh;
+    }
+    .trailer iframe {
+        width: 500px;
+    }
+    .video {
+        width: 75%;
+        height: 30rem;
+    }
+    .description p{
+        font-size: 100%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .video {
+        width: 80%;
+        height: 25rem;
     }
 }
 
@@ -985,6 +1192,24 @@ li i {
     }
     .ecran p {
         font-size: 120%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .sinopsis h3{
+        font-size: 200%;
+    }
+    .sinopsis p{
+        font-size: 100%;
+    }
+    .description h3 {
+        font-size: 200%;
+    }
+    .description p{
+        font-size: 100%;
+    }
+    .video{
+        height: 20rem;
     }
 }
 
@@ -1064,6 +1289,12 @@ li i {
     .inscription {
         margin-bottom: 50px;
     }
+    .sinopsis {
+        padding-top: 5vh;
+    }
+    .video {
+        height: 15rem;
+    }
 }
 
 @media screen and (max-width: 480px) {
@@ -1099,5 +1330,27 @@ li i {
     }
     .ecran p {
         font-size: 100%;
+    }
+
+    .sinopsis {
+        padding-top: 1vh;
+        width: 90%;
+        left: 5%;
+    }
+    .sinopsis h3{
+        font-size: 120%;
+        margin-bottom: 5px;
+    }
+    .sinopsis p{
+        font-size: 80%;
+    }
+    .video {
+        height: 12rem;
+    }
+    .description h3 {
+        font-size: 120%;
+    }
+    .description p{
+        font-size: 80%;
     }
 }
