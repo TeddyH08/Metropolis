@@ -46,14 +46,5 @@
         </ul>
     </div>
 
-    <script>
-        var carousel = $("#carousel").flipster({
-            style: 'carousel',
-            spacing: -0.5,
-            nav: false,
-            buttons:   true,
-        });
-    </script>
-
 </article>
 

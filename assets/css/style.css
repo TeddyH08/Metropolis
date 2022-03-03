@@ -304,6 +304,7 @@ h1 {
     width: 50%;
     color: white;
     margin-top: 10px;
+    text-align: center;
 }
 
 .text_hist h3 {
@@ -315,6 +316,8 @@ h1 {
 
 .text_hist p {
     font-size: 150%;
+    text-align: center;
+    margin-left: 50px;
 }
 
 .img_hist {
@@ -812,7 +815,8 @@ nav {
 
 .sinopsis p{
     font-size: 150%;
-    margin: 5px;
+    margin: 5px 50px 5px 5px;
+    text-align: center;
 }
 
 .trailer {
