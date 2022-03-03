@@ -17,27 +17,37 @@
 
             <form action="" method="post" class="animate__animated animate__fadeIn">
                 <label for="">Nom :</label>
-                <input type="text" required>
+                <input type="text" required></input>
 
                 <label for="">Prénom :</label>
-                <input type="text" required>
+                <input type="text" required></input>
 
                 <label for="">Nom d'utilisateur :</label>
-                <input type="text" required>
+                <input type="text" required></input>
 
                 <label for="">Mot de passe :</label>
-                <input type="password" required>
+                <input type="password" required></input>
 
                 <label for="">Email</label>
-                <input type="email" required>
+                <input type="email" required></input>
 
                 <label for="">Téléphone :</label>
-                <input type="text" required>
+                <input type="text" required></input>
 
                 <label for="">Adresse :</label>
-                <input type="text" required>
+                <input type="text" required></input>
+
+                <label for="">Abonnement <span>(changement possible dans votre espaces personnel)</span></label>
+                <select required>
+                    <option valeur="standard">Standard</option>
+                    <option valeur="vip">VIP</option>
+                    <option valeur="vip_plus">VIP ++</option>
+                </select>
 
                 <div class="envoi">
+                    <a href="abonnement.php" class="user_plus">
+                        Voir les abonnements
+                    </a>
                     <input type="submit" value="Inscription">
                 </div>
             </form>

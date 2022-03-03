@@ -106,6 +106,17 @@ input {
     width: 90%;
 }
 
+select {
+    margin: 5px 10px;
+    font-size: 120%;
+    width: 90%;
+}
+
+label span {
+    font-size: 70%;
+}
+
+
 /* -------------------------------------------------- INDEX -------------------------------------------------- */
 
 /* Image top */
@@ -349,7 +360,7 @@ h1 {
 }
 
 .ecran i {
-    font-size: 600%;
+    font-size: 450%;
 }
 
 .ecran p {
@@ -429,8 +440,19 @@ form {
     padding: 10px;
 }
 
+.envoi {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+    width: 90%;
+    margin-left: 10px;
+}
+
 .envoi input{
     cursor: pointer;
+    width: 30%;
 }
 
 /* -------------------------------------------------- INSCRIPTION -------------------------------------------------- */
@@ -1052,6 +1074,14 @@ nav {
 
     input {
         font-size: 100%;
+    }
+
+    select {
+        font-size: 100%;
+    }
+    
+    label span {
+        font-size: 50%;
     }
 
     .abonnement {
