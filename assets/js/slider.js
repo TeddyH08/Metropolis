@@ -5,6 +5,7 @@ $(document).ready(function(){
         slidesToScroll: 2,
         prevArrow: '<span class="priv_arrow"><i class="fa-solid fa-angle-left"></i></span>',
         nextArrow: '<span class="next_arrow"><i class="fa-solid fa-angle-right"></i></span>',
+        dots: true,
         responsive: [
           {
             breakpoint: 1025,

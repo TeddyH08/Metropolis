@@ -11,6 +11,7 @@
 
     <title>Metropolis</title>
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/carousel.css">
     <link 
         rel="stylesheet" 
         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" 
@@ -23,6 +24,7 @@
 
 <body>
     <?php include("assets/includes/navbar.php") ?>
+    <?php include("assets/includes/accueil/coverflow.php") ?>
     <?php include("assets/includes/accueil/slider.php") ?>
     <?php include("assets/includes/footer.php") ?>
 </body>

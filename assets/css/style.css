@@ -617,7 +617,7 @@ nav {
     border-radius: 50%;
 }
 
-ul {
+.ul {
     display: flex;
     flex-direction: row;
     justify-content: right;
@@ -661,10 +661,14 @@ li i {
     }
 }
 
+/* Carousel */
+
+
+
 /* Slider */
 
 .slide {
-    margin-top: 50px;
+    margin-top: 100px;
 }
 
 .slide h3 {
@@ -706,6 +710,37 @@ li i {
     transition: all 0.5s ease;
     transition-delay: 0s;
 }
+
+.marg {
+    margin-bottom: 100px;
+}
+
+.slick-dots {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 1rem 0;
+    list-style-type: none;
+    position: absolute;
+    bottom: -35%;
+  }
+  .slick-dots li {
+    margin: 0 0.25rem;
+  }
+  .slick-dots button {
+    display: block;
+    width: 1rem;
+    height: 1rem;
+    padding: 0;
+    border: none;
+    border-radius: 100%;
+    background-color: white;
+    text-indent: -9999px;
+    cursor: pointer;
+  }
+  .slick-dots li.slick-active button {
+    background-color: #296EB4;
+  }
 
 @media screen and (min-width: 1025px) {
     .slider .priv_arrow:hover {
@@ -898,7 +933,7 @@ li i {
     .titre {
         width: 80%;
     }
-    ul {
+    .ul {
         display: none;
         text-align: center;
         padding-top: 15px;
