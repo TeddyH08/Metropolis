@@ -1,4 +1,32 @@
 h2 {
     text-align: center;
-    font-size: 300%;
+    font-size: 350%;
+    margin-bottom: 100px;
+}
+
+.demo {
+  margin-bottom: 100px;
+}
+
+.demo p {
+  margin: 10px 0;
+  font-size: 150%;
+}
+
+.gold {
+  color: gold;
+}
+
+.silver {
+  color: silver;
+}
+
+.bronze {
+  color: maroon;
+}
+
+@media screen and (max-width: 1024px) {
+  .demo {
+    display: none;
+  }
 }

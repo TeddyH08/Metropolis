@@ -613,6 +613,7 @@ nav {
     margin-top: 5px;
     margin-bottom: 5px;
     border-radius: 50%;
+    margin-left: 10px;
 }
 
 .ul {
@@ -1215,6 +1216,9 @@ nav {
 
 @media screen and (max-width: 600px) {
     /* -------------------------------------------------- INDEX -------------------------------------------------- */
+    .logo {
+        width: 11%;
+    }
     .user_co {
         font-size: 80%;
         margin: 10px 15px;

@@ -20,6 +20,11 @@
         referrerpolicy="no-referrer" />
 
     <link rel="stylesheet" href="assets/css/slick.css">
+    <link rel="stylesheet" href="assets/css/jquery.flipster.min.css">
+    <link rel="stylesheet" href="assets/css/demo.css">
+
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.flipster.min.js"></script>
 </head>
 
 <body>
