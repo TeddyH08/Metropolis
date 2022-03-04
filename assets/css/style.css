@@ -726,7 +726,6 @@ nav {
     font-size: 120%;
     transition: all 1s ease;
     border-radius: 50%;
-    z-index: -10;
 }
 
 .slider .next_arrow {
@@ -736,7 +735,6 @@ nav {
     font-size: 120%;
     transition: all 1s ease;
     border-radius: 50%;
-    z-index: -10;
 }
 .slider_items img {
     border-radius: 5px;
