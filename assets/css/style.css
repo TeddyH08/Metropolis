@@ -20,6 +20,14 @@ body {
     color: white;
 }
 
+h2 {
+    font-family: 'Russo'; 
+}
+
+h3 {
+    font-family: 'Russo';
+}
+
 a {
     text-decoration: none;
 }
@@ -718,6 +726,7 @@ nav {
     font-size: 120%;
     transition: all 1s ease;
     border-radius: 50%;
+    z-index: -10;
 }
 
 .slider .next_arrow {
@@ -727,12 +736,22 @@ nav {
     font-size: 120%;
     transition: all 1s ease;
     border-radius: 50%;
+    z-index: -10;
 }
 .slider_items img {
     border-radius: 5px;
     cursor: pointer;
     transition: all 0.5s ease;
     transition-delay: 0s;
+    position: relative;
+}
+
+h4 {
+    text-decoration: none;
+    color: white;
+    position: absolute;
+    top: 0;
+    z-index: 10;
 }
 
 .marg {
@@ -746,7 +765,7 @@ nav {
     padding: 1rem 0;
     list-style-type: none;
     position: absolute;
-    bottom: -35%;
+    bottom: -20%;
   }
   .slick-dots li {
     margin: 0 0.25rem;
@@ -779,8 +798,9 @@ nav {
     }
     
     .slider_items img:hover {
-        transform: scale(1.2);
+        transform: scale(1.5);
         transition-delay: 0.5s;
+        z-index: 100;
     }
 }
 
@@ -1163,6 +1183,7 @@ nav {
 
     .sinopsis p{
         font-size: 120%;
+        margin: 5px;
     }
 
     .description {

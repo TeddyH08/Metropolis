@@ -12,6 +12,8 @@
     <title>Metropolis</title>
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/carousel.css">
+    <link rel="stylesheet" href="assets/css/slick.css">
+    
     <link 
         rel="stylesheet" 
         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" 
@@ -19,7 +21,7 @@
         crossorigin="anonymous" 
         referrerpolicy="no-referrer" />
 
-    <link rel="stylesheet" href="assets/css/slick.css">
+    
     <link rel="stylesheet" href="assets/css/jquery.flipster.min.css">
     <link rel="stylesheet" href="assets/css/demo.css">
 

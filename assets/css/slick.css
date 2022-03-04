@@ -26,6 +26,7 @@
 
     margin: 0;
     padding: 0;
+    height: 20rem;
 }
 .slick-list:focus
 {
@@ -50,7 +51,7 @@
 .slick-track
 {
     position: relative;
-    top: 5px;
+    top: 25%;
     left: 5px;
 
     display: block;
