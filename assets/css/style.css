@@ -140,6 +140,7 @@ label span {
 .bg_img {
     position: relative;
     width: 100%;
+    z-index: -1;
 }
 
 .user_co {
@@ -802,7 +803,7 @@ h4 {
     }
 }
 
-/* -------------------------------------------------- ACCUEIL -------------------------------------------------- */
+/* -------------------------------------------------- PAGE FILM -------------------------------------------------- */
 
 /* Fond image */
 
@@ -928,8 +929,40 @@ h4 {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
 }
+
+.nom_act {
+    text-align: center;
+}
+
+/* -------------------------------------------------- ACCOUNT -------------------------------------------------- */
+
+.titre_compte {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 350%;
+    margin-top: 50px;
+}
+
+.deco {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.user_deco {
+    color: white;
+    background-color: #296EB4;
+    padding: 5px 25px;
+    font-size: 120%;
+    border-radius: 5px;
+    top: 0;
+    right: 0;
+}
+
 
 /* -------------------------------------------------- RESPONSIVE -------------------------------------------------- */
 

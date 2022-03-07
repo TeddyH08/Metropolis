@@ -1,3 +1,10 @@
+<?php
+
+require 'assets/db/connexion/auth.php';
+forcer_utilisateur_connecte();
+
+?>
+
 <!DOCTYPE html>
 
 <html lang="fr">

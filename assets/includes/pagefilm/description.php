@@ -16,13 +16,6 @@
         <h3>Acteurs :</h3>
         <div class="act">
             <div class="nom_act">
-                <p>Alita :</p>
-                <p>Dr Dyson Ido :</p>
-                <p>Chiren :</p>
-                <p>Vector :</p>
-                <p>Hugo :</p>
-            </div>
-            <div class="nom_perso">
                 <p>Rosa Salazar</p>
                 <p>Christoph Waltz</p>
                 <p>Jennifer Connelly</p>

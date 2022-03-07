@@ -15,12 +15,12 @@
 
             <div class="separator"></div>
 
-            <form action="" method="post" class="animate__animated animate__fadeIn">
+            <form action="assets/db/connexion/cousers.php" method="post" class="animate__animated animate__fadeIn">
                 <label for="">Nom d'utilisateur :</label>
-                <input type="text" required>
+                <input type="text" name="utilisateur" id="utilisateur" required>
 
                 <label for="">Mot de passe :</label>
-                <input type="password" required>
+                <input type="password" name="mdp" id="mdp" required>
 
                 <div class="envoi">
                     <input type="submit" value="Connexion">

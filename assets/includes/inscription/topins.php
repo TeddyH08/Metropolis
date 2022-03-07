@@ -15,40 +15,35 @@
 
             <div class="separator"></div>
 
-            <form action="" method="post" class="animate__animated animate__fadeIn">
+            <form action="assets/db/connexion/insuser.php" method="post" class="animate__animated animate__fadeIn">
                 <label for="">Nom :</label>
-                <input type="text" required></input>
+                <input type="text" name="nom" id="nom" required></input>
 
                 <label for="">Prénom :</label>
-                <input type="text" required></input>
+                <input type="text" name="prenom" id="prenom" required></input>
 
                 <label for="">Nom d'utilisateur :</label>
-                <input type="text" required></input>
+                <input type="text" name="utilisateur" id="utilisateur" required></input>
 
                 <label for="">Mot de passe :</label>
-                <input type="password" required></input>
+                <input type="password" name="mdp" id="mdp" required></input>
 
                 <label for="">Email</label>
-                <input type="email" required></input>
+                <input type="email" name="mail" id="mail" required></input>
 
-                <label for="">Téléphone :</label>
-                <input type="text" required></input>
+                <label for="pet-select">Choisir un abonnement:</label>
 
-                <label for="">Adresse :</label>
-                <input type="text" required></input>
-
-                <label for="">Abonnement <span>(changement possible dans votre espaces personnel)</span></label>
-                <select required>
-                    <option valeur="standard">Standard</option>
-                    <option valeur="vip">VIP</option>
-                    <option valeur="vip_plus">VIP ++</option>
+                <select name="abonnement" id="abonnement" value="Abonnement" required>
+                    <option>Standard</option>
+                    <option>VIP</option>
+                    <option>VIP++</option>
                 </select>
 
                 <div class="envoi">
                     <a href="abonnement.php" class="user_plus">
                         Voir les abonnements
                     </a>
-                    <input type="submit" value="Inscription">
+                    <input type="submit" name="submit" id="submit" value="Inscription">
                 </div>
             </form>
         </div>
