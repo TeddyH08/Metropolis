@@ -963,6 +963,27 @@ h4 {
     right: 0;
 }
 
+.base {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.base p {
+    margin: 10px 30px;
+}
+
+.compte {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.profil {
+    width: 90%;
+}
 
 /* -------------------------------------------------- RESPONSIVE -------------------------------------------------- */
 

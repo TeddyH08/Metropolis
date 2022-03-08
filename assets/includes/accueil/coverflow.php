@@ -5,7 +5,7 @@
         <ul class="flip-items">
             <li>
                 <p class="gold">Top 1</p>
-                <a href="pagefilm.php"><img src="assets/img/top/alita.jpg"></a>
+                <a href="pagefilm.php?id=1"><img src="assets/img/top/alita.jpg"></a>
             </li>
             <li>
                 <p class="silver">Top 2</p>
