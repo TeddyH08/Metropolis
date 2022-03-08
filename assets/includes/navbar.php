@@ -5,6 +5,10 @@
                 <img src="assets/img/logo2.jpg" class="logo">
             </div>
             <ul id="navbar" class="ul">
+                <form action="assets/db/film/recherche.php" method="post" class="rechercher">
+                    <input type="search" id="recherche" name="recherche">
+                    <input type="submit" name="cherche" id="cherche" value="Chercher">
+                </form>
                 <div><li class="naav"><a href="accueil.php"><i class="fa-solid fa-house"></i> Accueil</a></li></div>
                 <div><li class="naav"><a href="#type"><i class="fa-solid fa-film"></i> Types de films</a></li></div>
                 <div><li class="naav"><a href="account.php"><i class="fa-solid fa-user"></i> Mon compte</a></li></div>

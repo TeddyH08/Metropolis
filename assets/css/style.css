@@ -659,7 +659,40 @@ nav {
     margin: 0;
     padding: 0;
     overflow: hidden;
+    width: 50%;
   }
+
+.rechercher {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+}
+
+.rechercher i {
+    text-decoration: none;
+    color: white;
+    background-color: #296EB4;
+    padding: 8.5px;
+    border-radius: 0 5px 5px 0;
+}
+
+#recherche {
+    margin: 0;
+    border-radius: 5px 0 0 5px;
+    border: none;
+}
+
+#cherche {
+    margin: 0;
+    border-radius: 0 5px 5px 0;
+    width: 40%;
+    cursor: pointer;
+    background-color: #296EB4;
+    color: white;
+    border: none;
+}
 
 .menu {
     display: none;
@@ -692,6 +725,25 @@ nav {
         background-color: #296EB4;
         border-radius: 30px;
     }
+}
+
+.erreur {
+    text-align: center;
+    font-size: 250%;
+}
+
+.retour_accueil {
+    display: flex;
+    justify-content: center;
+}
+
+.r_acc {
+    text-decoration: none;
+    color: white;
+    background-color: #296EB4;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align: center;
 }
 
 /* Carousel */
@@ -1213,9 +1265,18 @@ h4 {
         background-color: rgba(0, 0, 0, 0.9);
         backdrop-filter: blur(4px);
         width: 100%;
-        height: 150px;
+        height: 250px;
         margin: 0;
         padding: 0;
+    }
+
+    .rechercher {
+        width: 70%;
+        margin: auto;
+    }
+
+    .rechercher i {
+        padding: 6px;
     }
 
     /* -------------------------------------------------- FILM -------------------------------------------------- */
