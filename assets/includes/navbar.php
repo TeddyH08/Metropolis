@@ -7,7 +7,7 @@
             <ul id="navbar" class="ul">
                 <form action="assets/db/film/recherche.php" method="post" class="rechercher">
                     <input type="search" id="recherche" name="recherche">
-                    <input type="submit" name="cherche" id="cherche" value="Chercher">
+                    <input type="submit" name="cherche" id="cherche" value="&#xf002" class="fa-solid fa-magnifying-glass">
                 </form>
                 <div><li class="naav"><a href="accueil.php"><i class="fa-solid fa-house"></i> Accueil</a></li></div>
                 <div><li class="naav"><a href="#type"><i class="fa-solid fa-film"></i> Types de films</a></li></div>

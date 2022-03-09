@@ -16,6 +16,9 @@
             <div class="separator"></div>
 
             <form action="assets/db/connexion/insuser.php" method="post" class="animate__animated animate__fadeIn">
+                <?php if (isset($_GET['error'])){ ?>
+                    <p class="error">Votre Nom d'utilisateur ou votre mail est déjà existant</p>
+                <?php } ?>
                 <label for="">Nom :</label>
                 <input type="text" name="nom" id="nom" required></input>
 

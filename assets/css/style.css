@@ -513,6 +513,11 @@ form {
     font-size: 300%;
 }
 
+.error {
+    color: red;
+    align-self: center;
+}
+
 /* -------------------------------------------------- ABONNEMENT -------------------------------------------------- */
 
 .abonnement {
@@ -692,6 +697,7 @@ nav {
     background-color: #296EB4;
     color: white;
     border: none;
+    padding: 5px;
 }
 
 .menu {

@@ -2,8 +2,8 @@
 
     require("connectdb.php");
     
-    $utilisateur = $_POST['utilisateur'];
-    $mdp = $_POST['mdp'];
+    $utilisateur = htmlspecialchars($_POST['utilisateur']);
+    $mdp = md5(htmlspecialchars($_POST['mdp']));
 
     $pdoStat = $dbh->prepare('SELECT * FROM users WHERE utilisateur_users = ? AND mdp_users = ?');
 
