@@ -1,0 +1,51 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.row {
+    width: 100%;
+}
+
+.row h2 {
+    text-align: center;
+    font-size: 300%;
+    margin: 20px 0;
+}
+
+.row h3 {
+    margin-left: 20px;
+    font-size: 200%;
+}
+
+.row a {
+    color: white;
+    background-color: #296EB4;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+
+.table-responsive {
+    display: flex;
+    justify-content: center;
+}
+
+.users {
+    width: 90%;
+}
+
+.role {
+    width: 40%;
+}
+
+.films {
+    width: 100%;
+}
+
+form {
+    width: 80%;
+}

@@ -3,6 +3,11 @@
         <div class="tout">
             <div class="titre">
                 <img src="assets/img/logo2.jpg" class="logo">
+                <?php if (isset($_SESSION['role']) && $_SESSION['role'] == 2){ ?>
+                    <a href="admin.php?admin" class="user_admin">
+                        CRUD
+                    </a>
+                <?php } ?>
             </div>
             <ul id="navbar" class="ul">
                 <form action="assets/db/film/recherche.php" method="post" class="rechercher">

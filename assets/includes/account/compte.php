@@ -26,6 +26,11 @@
             </div>
         </div>
     </div>
+    <div class="favoris">
+        <h3>Mes favoris</h3>
+
+        <div class="separator"></div>
+    </div>
 </div>
 
 <div class="deco">

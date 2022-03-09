@@ -114,6 +114,12 @@ input {
     width: 90%;
 }
 
+textarea {
+    margin: 5px 10px;
+    font-size: 120%;
+    width: 90%;
+}
+
 select {
     margin: 5px 10px;
     font-size: 120%;
@@ -645,7 +651,16 @@ nav {
     width: 50%;
 }
 
-
+.user_admin {
+    text-decoration: none;
+    justify-self: center;
+    align-self: center;
+    color: white;
+    padding: 5px 10px;
+    background-color: #296EB4;
+    border-radius: 5px;
+    margin-left: 30px;
+}
 
 .logo {
     width: 8%;
@@ -1034,6 +1049,7 @@ h4 {
 
 .compte {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 100%;
@@ -1041,6 +1057,12 @@ h4 {
 
 .profil {
     width: 90%;
+    margin: 20px 0;
+}
+
+.favoris {
+    width: 90%;
+    margin: 20px 0;
 }
 
 /* -------------------------------------------------- RESPONSIVE -------------------------------------------------- */

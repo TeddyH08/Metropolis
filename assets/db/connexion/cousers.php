@@ -19,7 +19,12 @@
         $_SESSION['utilisateur'] = $row['utilisateur_users'];
         $_SESSION['mail'] = $row['mail_users'];
         $_SESSION['abo'] = $row['abonnement_users'];
-        header('Location: ../../../accueil.php');
+        $_SESSION['role'] = $row['id_role'];
+        if ($_SESSION['role'] == 2) {
+            header('Location: ../../../accueil.php?admin');
+        } else {
+            header('Location: ../../../accueil.php');
+        }
     } else{
         echo "Votre pseudo ou mot de passe est incorrect";
     }
