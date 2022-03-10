@@ -15,7 +15,7 @@
                     <input type="submit" name="cherche" id="cherche" value="&#xf002" class="fa-solid fa-magnifying-glass">
                 </form>
                 <div><li class="naav"><a href="accueil.php"><i class="fa-solid fa-house"></i> Accueil</a></li></div>
-                <div><li class="naav"><a href="#type"><i class="fa-solid fa-film"></i> Types de films</a></li></div>
+                <div><li class="naav"><a href="accueil.php#type"><i class="fa-solid fa-film"></i> Types de films</a></li></div>
                 <div><li class="naav"><a href="account.php"><i class="fa-solid fa-user"></i> Mon compte</a></li></div>
             </ul>
             <div class="menu" id="toggle-button">

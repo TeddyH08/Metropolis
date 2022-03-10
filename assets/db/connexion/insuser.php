@@ -38,7 +38,7 @@
         $pdoStat = $dbh -> prepare($sqlRequest);
         $pdoStat->execute(array($name,$firstname,$utilisateur,$password,$email,$abonnement));
         $row = $pdoStat->fetchall(PDO::FETCH_ASSOC);
-        header('Location: ../../../connexion.php');
+        header('Location: ../../../connexion.php?sucess');
     }
 
 ?>

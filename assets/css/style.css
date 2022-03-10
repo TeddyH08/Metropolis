@@ -524,6 +524,11 @@ form {
     align-self: center;
 }
 
+.sucess {
+    color: lime;
+    align-self: center;
+}
+
 /* -------------------------------------------------- ABONNEMENT -------------------------------------------------- */
 
 .abonnement {
