@@ -32,6 +32,9 @@ require 'assets/db/connexion/connectdb.php';
 
 <body>
     <?php include("assets/includes/navbar.php") ?>
+    <div class="titr">
+        <h3>Ajout d'un rôle :</h3>
+    </div>
     <form action="assets/db/crud/role/add.php" method="post">
                 <label for="">Nom du rôle :</label>
                 <input type="text" name="role" id="role" required></input>

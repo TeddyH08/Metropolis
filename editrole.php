@@ -32,6 +32,9 @@ require 'assets/db/crud/role/edit.php';
 
 <body>
     <?php include("assets/includes/navbar.php") ?>
+    <div class="titr">
+        <h3>Lecture d'un rôle :</h3>
+    </div>
     <div class="infos_user">
         <div>
             <p>Id :</p>

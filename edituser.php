@@ -32,6 +32,9 @@ require 'assets/db/crud/users/edit.php';
 
 <body>
     <?php include("assets/includes/navbar.php") ?>
+    <div class="titr">
+        <h3>Lecture d'un utilisateur :</h3>
+    </div>
     <div class="infos_user">
         <div>
             <p>Nom :</p>

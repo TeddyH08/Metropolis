@@ -24,9 +24,9 @@
     }
 
     
-    $pdoStat = $dbh->prepare('SELECT * FROM users');
+    $pdoStat = $dbh->prepare('SELECT * FROM users WHERE utilisateur_users = ? AND mail_users = ?');
 
-    $pdoStat->execute(array());
+    $pdoStat->execute(array($utilisateur, $email));
 
     $row = $pdoStat->fetch(PDO::FETCH_ASSOC);
 

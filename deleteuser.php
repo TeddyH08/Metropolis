@@ -32,11 +32,14 @@ require 'assets/db/crud/users/delete.php';
 
 <body>
     <?php include("assets/includes/navbar.php") ?>
-    <form class="form-horizontal" action="deleteuser.php" method="post">
+    <div class="titr">
+        <h3>Suppression d'un utilisateur :</h3>
+    </div>
+    <form class="form_del" action="deleteuser.php" method="post">
         <input type="hidden" name="id" value="<?php echo $id;?>"/>        
             Veux-tu vraiment le supprimer ?
-            <button type="submit" class="btn btn-danger">Oui</button>
-            <a class="btn" href="admin.php">Non</a>
+            <button type="submit" class="oui">Oui</button>
+            <a class="non" href="admin.php">Non</a>
     </form>
     <?php include("assets/includes/footer.php") ?>
 </body>

@@ -41,9 +41,9 @@ require '../../connexion/connectdb.php';
         
     }
 
-    $pdoStat = $dbh->prepare('SELECT * FROM pagefilm');
+    $pdoStat = $dbh->prepare('SELECT * FROM pagefilm WHERE nom_pagefilm = ?');
 
-    $pdoStat->execute(array());
+    $pdoStat->execute(array($name));
 
     $row = $pdoStat->fetch(PDO::FETCH_ASSOC);
 

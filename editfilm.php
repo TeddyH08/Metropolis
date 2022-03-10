@@ -32,6 +32,9 @@ require 'assets/db/crud/film/edit.php';
 
 <body>
     <?php include("assets/includes/navbar.php") ?>
+    <div class="titr">
+        <h3>Lecture d'un film :</h3>
+    </div>
     <div class="infos_user">
         <div div>
             <div class="f"><p>Nom du film :</p><p><?php echo $resultat["nom_pagefilm"] ?></p></div>

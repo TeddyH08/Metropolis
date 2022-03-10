@@ -72,3 +72,44 @@ form {
     display: flex;
     flex-direction: row;
 }
+
+.titr {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 20px 0;
+}
+
+.titr h3 {
+    font-size: 200%;
+}
+
+.form_del {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0;
+    width: 40%;
+    margin: auto;
+    font-size: 150%;
+}
+
+.oui {
+    font-size: 100%;
+    padding: 2px 15px;
+    color: white;
+    background-color: #296EB4;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.non {
+    font-size: 100%;
+    padding: 2px 15px;
+    color: white;
+    background-color: #296EB4;
+    border: none;
+    border-radius: 5px;
+}

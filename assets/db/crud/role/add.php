@@ -14,9 +14,9 @@ require '../../connexion/connectdb.php';
         
     }
 
-    $pdoStat = $dbh->prepare('SELECT * FROM role');
+    $pdoStat = $dbh->prepare('SELECT * FROM role WHERE nom_role = ?');
 
-    $pdoStat->execute(array());
+    $pdoStat->execute(array($name));
 
     $row = $pdoStat->fetch(PDO::FETCH_ASSOC);
 

@@ -32,6 +32,9 @@ require 'assets/db/connexion/connectdb.php';
 
 <body>
     <?php include("assets/includes/navbar.php") ?>
+    <div class="titr">
+        <h3>Ajout d'un utilisateur :</h3>
+    </div>
     <form action="assets/db/crud/users/add.php" method="post">
                 <label for="">Nom :</label>
                 <input type="text" name="nom" id="nom" required></input>
