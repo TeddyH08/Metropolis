@@ -5,6 +5,8 @@ forcer_utilisateur_connecte();
  
 require 'assets/db/crud/role/edit.php';
 
+if ($_SESSION['role'] == 2) {
+
 ?>
 
 <!DOCTYPE html>
@@ -52,3 +54,11 @@ require 'assets/db/crud/role/edit.php';
     </div>
     <?php include("assets/includes/footer.php") ?>
 </body>
+
+<?php 
+
+} else {
+    header('Location: accueil.php');
+}
+
+?>

@@ -5,6 +5,8 @@ forcer_utilisateur_connecte();
 
 require 'assets/db/connexion/connectdb.php';
 
+if ($_SESSION['role'] == 2) {
+
 ?>
 
 <!DOCTYPE html>
@@ -35,3 +37,11 @@ require 'assets/db/connexion/connectdb.php';
     <?php include("assets/includes/footer.php") ?>
 </body>
 </html>
+
+<?php 
+
+} else {
+    header('Location: accueil.php');
+}
+
+?>
