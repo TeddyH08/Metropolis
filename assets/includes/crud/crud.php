@@ -52,13 +52,13 @@
                         echo '<td>' . $value['abonnement_users'] . '</td>';
                         echo '<td>' . $value['id_role'] . '</td>';
                         echo '<td>';
-                        echo '<a class="btn" href="assets/db/crud/users/edit.php?id=' . $value['id_users'] . '">Lire</a>';
+                        echo '<a class="btn" href="edituser.php?id=' . $value['id_users'] . '">Lire</a>';
                         echo '</td>';
                         echo '<td>';
-                        echo '<a class="btn btn-success" href="assets/db/crud/users/update.php?id=' . $value['id_users'] . '">Modifier</a>';// un autre td pour le bouton d'update
+                        echo '<a class="btn btn-success" href="updateuser.php?id=' . $value['id_users'] . '">Modifier</a>';// un autre td pour le bouton d'update
                         echo '</td>';
                         echo'<td>';
-                        echo '<a class="btn btn-danger" href="assets/db/crud/users/delete.php?id=' . $value['id_users'] . ' ">Supprimer</a>';// un autre td pour le bouton de suppression
+                        echo '<a class="btn btn-danger" href="deleteuser.php?id=' . $value['id_users'] . ' ">Supprimer</a>';// un autre td pour le bouton de suppression
                         echo '</td>';
                         echo '</tr>';
                         ?>
@@ -92,13 +92,13 @@
                         echo '<td>' . $value['id_role'] . '</td>';
                         echo '<td>' . $value['nom_role'] . '</td>';   
                         echo '<td>';
-                        echo '<a class="btn" href="assets/db/crud/role/edit.php?id=' . $value['id_role'] . '">Lire</a>';
+                        echo '<a class="btn" href="editrole.php?id=' . $value['id_role'] . '">Lire</a>';
                         echo '</td>';
                         echo '<td>';
-                        echo '<a class="btn btn-success" href="assets/db/crud/role/update.php?id=' . $value['id_role'] . '">Modifier</a>';// un autre td pour le bouton d'update
+                        echo '<a class="btn btn-success" href="updaterole.php?id=' . $value['id_role'] . '">Modifier</a>';// un autre td pour le bouton d'update
                         echo '</td>';
                         echo'<td>';
-                        echo '<a class="btn btn-danger" href="assets/db/crud/role/delete.php?id=' . $value['id_role'] . ' ">Supprimer</a>';// un autre td pour le bouton de suppression
+                        echo '<a class="btn btn-danger" href="deleterole.php?id=' . $value['id_role'] . ' ">Supprimer</a>';// un autre td pour le bouton de suppression
                         echo '</td>';
                         echo '</tr>';
                         ?>
@@ -147,13 +147,13 @@
                         echo '<td>' . $value['infos_film'] . '</td>';
                         echo '<td>' . $value['acteur_film'] . '</td>';
                         echo '<td>';
-                        echo '<a class="btn" href="assets/db/crud/film/edit.php?id=' . $value['id_pagefilm'] . '">Lire</a>';
+                        echo '<a class="btn" href="editfilm.php?id=' . $value['id_pagefilm'] . '">Lire</a>';
                         echo '</td>';
                         echo '<td>';
-                        echo '<a class="btn btn-success" href="assets/db/crud/film/update.php?id=' . $value['id_pagefilm'] . '">Modifier</a>';// un autre td pour le bouton d'update
+                        echo '<a class="btn btn-success" href="updatefilm.php?id=' . $value['id_pagefilm'] . '">Modifier</a>';// un autre td pour le bouton d'update
                         echo '</td>';
                         echo'<td>';
-                        echo '<a class="btn btn-danger" href="assets/db/crud/film/delete.php?id=' . $value['id_pagefilm'] . ' ">Supprimer</a>';// un autre td pour le bouton de suppression
+                        echo '<a class="btn btn-danger" href="deletefilm.php?id=' . $value['id_pagefilm'] . ' ">Supprimer</a>';// un autre td pour le bouton de suppression
                         echo '</td>';
                         echo '</tr>';
                         ?>

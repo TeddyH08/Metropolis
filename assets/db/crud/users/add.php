@@ -1,7 +1,4 @@
 <?php
- 
-require '../../connexion/auth.php';
-forcer_utilisateur_connecte();
 
 require '../../connexion/connectdb.php';
 

@@ -49,3 +49,26 @@
 form {
     width: 80%;
 }
+
+.infos_user {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.retour {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.film_infos {
+    width: 50%;
+}
+
+.f {
+    display: flex;
+    flex-direction: row;
+}
