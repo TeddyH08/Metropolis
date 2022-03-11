@@ -34,12 +34,15 @@
     <div class="separator"></div>
     
     <div class="multiple-items slider">
-        <?php foreach ($result as $value) { ?>
-            <?php if ($value["genre_film"] == "Science-Fiction") { ?>
+        <?php 
+        foreach ($resultfav as $valuefav) { 
+            foreach ($result as $value) {
+                if ($value["id_pagefilm"] == $valuefav['id_pagefilm']) { 
+        ?>
                 <div class="slider_items">
                     <a href="pagefilm.php?id=<?php echo $value["id_pagefilm"] ?>" id="<?php echo $value["id_pagefilm"] ?>"><img src="<?php echo "assets/img/affiche/" . $value['affiche_film']. ".jpg"?>" width=90%></a>
                 </div>
-        <?php }} ?>
+        <?php }}} ?>
     </div>
 </div>
 
