@@ -1,5 +1,5 @@
 <div class="fond">
-    <img src="assets/img/4k/<?php echo $resultat["photo_pagefilm"] ?>.jpg" class="fond_img">
+    <img src="assets/img/4k/<?php echo $resultat["photo_pagefilm"] ?>" class="fond_img">
 
     <div class="trailer">
         <h3>Bande annonce :</h3>

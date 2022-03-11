@@ -7,8 +7,16 @@
    <div class="multiple-items slider">
       <?php foreach ($result as $value) { ?>
          <?php if ($value["genre_film"] == "Action") { ?>
-         <div class="slider_items">
-                     <a href="pagefilm.php?id=<?php echo $value["id_pagefilm"] ?>" id="<?php echo $value["id_pagefilm"] ?>"><img src="<?php echo "assets/img/affiche/" . $value['affiche_film']. ".jpg"?>" width=90%></a>
+            <div class="slider_items">
+               <div class="hov">
+                  <a href="pagefilm.php?id=<?php echo $value["id_pagefilm"] ?>" id="<?php echo $value["id_pagefilm"] ?>" class="ti" width=100%>
+                     <?php echo $value["nom_pagefilm"] ?>
+                     <br>
+                     <br>
+                     <?php echo $value["synopsis_pagefilm"] ?>
+                  </a>
+                  <a href="pagefilm.php?id=<?php echo $value["id_pagefilm"] ?>" id="<?php echo $value["id_pagefilm"] ?>"><img src="<?php echo "assets/img/affiche/" . $value['affiche_film']?>" width=100%></a>
+               </div>
          </div>
       <?php }} ?>
    </div>
@@ -21,8 +29,16 @@
    <div class="multiple-items slider">
       <?php foreach ($result as $value) { ?>
          <?php if ($value["genre_film"] == "Science-Fiction") { ?>
-         <div class="slider_items">
-                     <a href="pagefilm.php?id=<?php echo $value["id_pagefilm"] ?>" id="<?php echo $value["id_pagefilm"] ?>"><img src="<?php echo "assets/img/affiche/" . $value['affiche_film']. ".jpg"?>" width=90%></a>
+            <div class="slider_items">
+               <div class="hov">
+                  <a href="pagefilm.php?id=<?php echo $value["id_pagefilm"] ?>" id="<?php echo $value["id_pagefilm"] ?>" class="ti" width=100%>
+                     <?php echo $value["nom_pagefilm"] ?>
+                     <br>
+                     <br>
+                     <?php echo $value["synopsis_pagefilm"] ?>
+                  </a>
+                  <a href="pagefilm.php?id=<?php echo $value["id_pagefilm"] ?>" id="<?php echo $value["id_pagefilm"] ?>"><img src="<?php echo "assets/img/affiche/" . $value['affiche_film']?>" width=100%></a>
+               </div>
          </div>
       <?php }} ?>
    </div>
@@ -36,7 +52,15 @@
       <?php foreach ($result as $value) { ?>
          <?php if ($value["genre_film"] == "Comédie") { ?>
          <div class="slider_items">
-                     <a href="pagefilm.php?id=<?php echo $value["id_pagefilm"] ?>" id="<?php echo $value["id_pagefilm"] ?>"><img src="<?php echo "assets/img/affiche/" . $value['affiche_film']. ".jpg"?>" width=90%></a>
+            <div class="hov">
+               <a href="pagefilm.php?id=<?php echo $value["id_pagefilm"] ?>" id="<?php echo $value["id_pagefilm"] ?>" class="ti" width=100%>
+                  <?php echo $value["nom_pagefilm"] ?>
+                  <br>
+                  <br>
+                  <?php echo $value["synopsis_pagefilm"] ?>
+               </a>
+               <a href="pagefilm.php?id=<?php echo $value["id_pagefilm"] ?>" id="<?php echo $value["id_pagefilm"] ?>"><img src="<?php echo "assets/img/affiche/" . $value['affiche_film']?>" width=100%></a>
+            </div>
          </div>
       <?php }} ?>
    </div>
