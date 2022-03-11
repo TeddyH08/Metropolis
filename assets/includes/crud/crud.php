@@ -55,7 +55,7 @@
                         echo '<a class="btn" href="edituser.php?id=' . $value['id_users'] . '">Lire</a>';
                         echo '</td>';
                         echo '<td>';
-                        echo '<a class="btn btn-success" href="updateuser.php?id=' . $value['id_users'] . '">Modifier</a>';// un autre td pour le bouton d'update
+                        echo '<a class="btn btn-success" href="updateusers.php?id=' . $value['id_users'] . '">Modifier</a>';// un autre td pour le bouton d'update
                         echo '</td>';
                         echo'<td>';
                         echo '<a class="btn btn-danger" href="deleteuser.php?id=' . $value['id_users'] . ' ">Supprimer</a>';// un autre td pour le bouton de suppression

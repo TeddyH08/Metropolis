@@ -64,6 +64,7 @@ if ($_SESSION['role'] == 2) {
     </div>
     <?php include("assets/includes/footer.php") ?>
 </body>
+</html>
 
 <?php 
 
