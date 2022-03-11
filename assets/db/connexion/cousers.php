@@ -14,6 +14,7 @@
     if ($pdoStat->rowCount() > 0) {
         session_start();
         $_SESSION['connecte'] = 1;
+        $_SESSION['id_users'] = $row['id_users'];
         $_SESSION['nom'] = $row['nom_users'];
         $_SESSION['prenom'] = $row['prenom_users'];
         $_SESSION['utilisateur'] = $row['utilisateur_users'];

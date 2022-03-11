@@ -8,5 +8,11 @@ $pdoStat->execute();
 
 $result = $pdoStat->fetchAll(PDO::FETCH_ASSOC);
 
+$sqlfav = ("SELECT * FROM avoir");
+$pdoStatfav = $dbh->prepare($sqlfav);
+$pdoStatfav->execute();
+
+$resultfav = $pdoStatfav->fetchAll(PDO::FETCH_ASSOC);
+
 
 ?>

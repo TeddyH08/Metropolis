@@ -985,6 +985,32 @@ h4 {
     align-items: center;
 }
 
+.addfav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.grey {
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+}
+
+.grey:hover {
+    color: grey;
+}
+
+.red {
+    text-decoration: none;
+    cursor: pointer;
+    color: red;
+}
+
+.red:hover {
+    color: rgb(141, 3, 3);
+}
 
 .infos {
     display: flex;

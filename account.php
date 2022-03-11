@@ -5,8 +5,6 @@ forcer_utilisateur_connecte();
 
 require 'assets/db/film/accfilm.php';
 
-require 'assets/db/film/accfilm.php';
-
 ?>
 
 <!DOCTYPE html>

@@ -3,7 +3,7 @@
 require 'assets/db/connexion/auth.php';
 forcer_utilisateur_connecte();
 
-require 'assets/db/film/pfilm.php'
+require 'assets/db/film/pfilm.php';
 
 ?>
 
@@ -29,10 +29,10 @@ require 'assets/db/film/pfilm.php'
 </head>
 
 <body>
-    <?php include("assets/includes/navbar.php") ?>
-    <?php include("assets/includes/pagefilm/bgfilm.php") ?>
-    <?php include("assets/includes/pagefilm/film.php") ?>
-    <?php include("assets/includes/pagefilm/description.php") ?>
-    <?php include("assets/includes/footer.php") ?>
+    <?php include("assets/includes/navbar.php"); ?>
+    <?php include("assets/includes/pagefilm/bgfilm.php"); ?>
+    <?php include("assets/includes/pagefilm/film.php"); ?>
+    <?php include("assets/includes/pagefilm/description.php"); ?>
+    <?php include("assets/includes/footer.php"); ?>
 </body>
 </html>

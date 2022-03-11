@@ -129,6 +129,7 @@
                     <th>Genre</th>
                     <th>Photo</th>
                     <th>Synopsis</th>
+                    <th>Trailer</th>
                     <th>Avis</th>
                     <th>Infos</th>
                     <th>Acteurs</th>
