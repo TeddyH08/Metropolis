@@ -34,15 +34,23 @@
     <div class="separator"></div>
     
     <div class="multiple-items slider">
-        <?php 
-        foreach ($resultfav as $valuefav) { 
-            foreach ($result as $value) {
-                if ($value["id_pagefilm"] == $valuefav['id_pagefilm']) { 
+        <?php foreach ($resultfav as $valuefav) { 
+                foreach ($result as $value) {
+                    if ($_SESSION['id_users'] == $valuefav['id_users']) {
+                        if ($value["id_pagefilm"] == $valuefav['id_pagefilm']) { 
         ?>
                 <div class="slider_items">
-                    <a href="pagefilm.php?id=<?php echo $value["id_pagefilm"] ?>" id="<?php echo $value["id_pagefilm"] ?>"><img src="<?php echo "assets/img/affiche/" . $value['affiche_film']. ".jpg"?>" width=90%></a>
+                    <div class="hov">
+                        <a href="pagefilm.php?id=<?php echo $value["id_pagefilm"] ?>" id="<?php echo $value["id_pagefilm"] ?>" class="ti" width=100%>
+                            <?php echo $value["nom_pagefilm"] ?>
+                            <br>
+                            <br>
+                            <?php echo $value["synopsis_pagefilm"] ?>
+                        </a>
+                        <a href="pagefilm.php?id=<?php echo $value["id_pagefilm"] ?>" id="<?php echo $value["id_pagefilm"] ?>"><img src="<?php echo "assets/img/affiche/" . $value['affiche_film']?>" width=100%></a>
+                    </div>
                 </div>
-        <?php }}} ?>
+        <?php }}}} ?>
     </div>
 </div>
 
