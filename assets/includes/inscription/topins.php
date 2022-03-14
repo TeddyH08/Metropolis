@@ -19,6 +19,9 @@
                 <?php if (isset($_GET['error'])){ ?>
                     <p class="error">Votre Nom d'utilisateur ou votre mail est déjà existant</p>
                 <?php } ?>
+                <?php if (isset($_GET['mdperror'])){ ?>
+                    <p class="error">Vos mot de passe ne correspondent pas !</p>
+                <?php } ?>
                 <label for="">Nom :</label>
                 <input type="text" name="nom" id="nom" required></input>
 
@@ -30,6 +33,9 @@
 
                 <label for="">Mot de passe :</label>
                 <input type="password" name="mdp" id="mdp" required></input>
+
+                <label for="">Confirmer Mot de passe :</label>
+                <input type="password" name="mdps" id="mdps" required></input>
 
                 <label for="">Email</label>
                 <input type="email" name="mail" id="mail" required></input>

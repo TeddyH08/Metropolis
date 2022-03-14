@@ -13,6 +13,9 @@
         if(isset($_POST["mdp"]) && (!empty($_POST["mdp"]))){
             $password = md5(htmlspecialchars($_POST["mdp"]));
         }
+        if(isset($_POST["mdp"]) && (!empty($_POST["mdp"]))){
+            $passwords = md5(htmlspecialchars($_POST["mdps"]));
+        }
         if(isset($_POST["mail"]) && (!empty($_POST["mail"]))){
             $email = htmlspecialchars($_POST["mail"]);
         }
@@ -32,6 +35,8 @@
 
     if ($utilisateur == $row['utilisateur_users'] || $email == $row['mail_users']) {
         header('Location: ../../../inscription.php?error');
+    } else if ($password != $passwords) {
+        header('Location: ../../../inscription.php?mdperror');
     } else {
         $sqlRequest = "INSERT INTO `users` (`nom_users`, `prenom_users`, `utilisateur_users`, `mdp_users`, `mail_users`, `abonnement_users`, `id_role`) 
                         VALUES (?,?,?,?,?,?,'1');";
