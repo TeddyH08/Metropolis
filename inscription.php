@@ -1,6 +1,6 @@
 <?php
 
-    require 'assets/db/connexion/auth.php';
+    require 'db/connexion/auth.php';
     if (est_connecte()) {
         header('Location: accueil.php');
         exit();
