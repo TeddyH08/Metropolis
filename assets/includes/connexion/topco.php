@@ -17,6 +17,10 @@
                 <p class="sucess">Vous êtes bien inscrit, vous pouvez maintenant vous connecter !</p>
             <?php } ?>
 
+            <?php if (isset($_GET['error'])){ ?>
+                <p class="error">Votre pseudo ou mot de passe est incorrect</p>
+            <?php } ?>
+
             <div class="separator"></div>
 
             <form action="assets/db/connexion/cousers.php" method="post" class="animate__animated animate__fadeIn">
