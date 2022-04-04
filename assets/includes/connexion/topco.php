@@ -17,13 +17,11 @@
                 <p class="sucess">Vous êtes bien inscrit, vous pouvez maintenant vous connecter !</p>
             <?php } ?>
 
-            <?php if (isset($_GET['error'])){ ?>
-                <p class="error">Votre pseudo ou mot de passe est incorrect</p>
-            <?php } ?>
+            <p class="error"></p>
 
             <div class="separator"></div>
 
-            <form action="assets/db/connexion/cousers.php" method="post" class="animate__animated animate__fadeIn">
+            <form action="assets/db/connexion/cousers.php" method="post" class="animate__animated animate__fadeIn" id="formajax">
                 <label for="">Nom d'utilisateur :</label>
                 <input type="text" name="utilisateur" id="utilisateur" required>
 
@@ -31,9 +29,12 @@
                 <input type="password" name="mdp" id="mdp" required>
 
                 <div class="envoi">
-                    <input type="submit" value="Connexion">
+                    <input type="submit" value="Connexion" >
                 </div>
             </form>
         </div>
     </div>
 </div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="assets/js/ajax.js"></script>

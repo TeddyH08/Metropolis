@@ -27,7 +27,7 @@
             header('Location: ../../../accueil.php');
         }
     } else{
-        header('Location: ../../../connexion.php?error');
+        echo "Votre pseudo ou mot de passe est incorrect";
     }
 
 ?>
