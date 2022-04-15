@@ -1,7 +1,7 @@
 <?php
     require("connectdb.php");
     if(isset($_POST)){
-        if(isset($_POST["nom"]) && (!empty($_POST["nom"]))){
+        if(isset($_POST["nom"]) && !empty($_POST["nom"])){
             $name = htmlspecialchars($_POST["nom"]);            
         }
         if(isset($_POST["prenom"]) && (!empty($_POST["prenom"]))){
